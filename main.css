@@ -68,11 +68,8 @@ body, html {
 .parallax {
     position: relative;
 
-  /* The image used */
-  background-image: url('img_parallax.jpg');
-
   /* Full height */
-  height: 50%; 
+  height: 100%; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -88,10 +85,44 @@ body, html {
   }
 }
 
+/* Contact CSS */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact {
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%;
+    float: left;
+}
+
 /* Main CSS */
 
 body {
     background-color: #585c5f;
+    font-family: monospace;
 }
 
 h1 {
@@ -114,10 +145,10 @@ p {
 .title {
     position: absolute;
     top: 50%;
-    left: 46%;
+    left: 20%;
     height: 30%;
     width: 50%;
-    font-size: 300%
+    font-size: 200%
 
 }
 
