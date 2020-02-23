@@ -2,21 +2,19 @@
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <title>
-            Toast Hosting
-        </title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>Toast Hosting</title>
     </head>
 
     <body>
         
-        <div class="parallax" style="background-image: url('servers.jpg');">
+        <div class="parallax" style="background-image: url('img/servers.jpg');">
             
             <div class="alert info">
                 <span class="closebtn">&times;</span>  
                 <strong>Site under construction!</strong> This website is still being worked on and some features or links may be nonfuctional.
             </div>
-            <script src="script.js"></script>
+            <script src="js/alert.js"></script>
             
             <div class="title">
                 <h1>Toast Hosting</h1>
@@ -25,13 +23,46 @@
         
         <ul>
             <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="lookingglass.html">Looking Glass</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
         
-        <div class="parallax" style="background-image: url('servers2.jpg');"></div>
+        <div class="parallax" style="background-image: url('img/servers2.jpg'); height: 150%;">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="img/vps.png" alt="Jane" style="width:100%">
+                      <div class="container">
+                        <h2>NZ VPS</h2>
+                        <p>NZ hosted Virtual Private Servers, standard and custom configurations avalible</p>
+                        <p><button class="button">See More</button></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="column">
+                    <div class="card">
+                      <img src="img/vpn.png" alt="Mike" style="width:100%">
+                      <div class="container">
+                        <h2>NZ VPN</h2>
+                        <p>Our NZ terminated VPN's will help secure you on the internet.</p>
+                        <p><button class="button">See More</button></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="column">
+                    <div class="card">
+                      <img src="img/database.png" alt="John" style="width:100%">
+                      <div class="container">
+                        <h2>Database Storage</h2>
+                        <p>For storage heavy applications we provide VPS' with more HDD storage.</p>
+                        <p><button class="button">See More</button></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
         
     </body>
 </html>
